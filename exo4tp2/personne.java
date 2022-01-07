@@ -26,7 +26,7 @@ public void afficher ()
 
 	System.out.println("Nom:"+this.nom);
 	System.out.println("prenom:"+this.prenom);
-	System.out.println("Nom:"+this.age);
+	System.out.println("Age:"+this.age);
 
 
 }
@@ -39,18 +39,13 @@ public void afficher ()
 
 
 
-public static void main (String args [])
-{
+//public static void main (String args [])
+//{
 
-	personne p1=new personne ("TARI","Ramzi",25);
-	p1.afficher();
+//	personne p1=new personne ("TARI","Ramzi",25);
+//	p1.afficher();
 
-
-
-
-
-
-}
+//}
 
 
 
